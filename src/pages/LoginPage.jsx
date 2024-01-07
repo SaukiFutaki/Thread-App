@@ -1,8 +1,8 @@
-import Logininput from "../components/loginInput";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { asyncSetAuthUser } from "../states/authUser/action";
+import Logininput from "./../components/LoginInput";
 
 export default function LoginPage() {
   const dispatch = useDispatch();
