@@ -1,7 +1,7 @@
-import RegisterInput from "../components/registerInput";
 import { asyncRegisterUser } from "../states/users/action";
 import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
+import RegisterInput from "./../components/RegisterInput";
 
 export default function RegisterPage() {
   const navigate = useNavigate();
